@@ -1,5 +1,47 @@
-h1 {
+/* Applies to all elements  */
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 1;
+}
+
+/* Starts applying css section by section */
+header {
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+    background-color: transparent;
+    color: seagreen;
+}
+
+header h1 {
     text-align: left;
     color: whitesmoke;
-    background-color: darkolivegreen;
+    background-color: palevioletred;
 }
+
+header nav {
+    justify-content: space-around;
+    align-content: left;
+    background-color: thistle;
+    padding: 40px
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.body {
+    background-color: whitesmoke;
+}
+
+body article {
+
+}
+
