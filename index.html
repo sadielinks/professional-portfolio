@@ -17,15 +17,15 @@
     <nav>
       <h1 class="page title">Sadie Sial</h1>
       <ul>
-        <li><a id="aboutme" a href="#aboutme">About Me</a></li>
-        <li><a id="work" href="#work">Work</a></li>
-        <li><a id="contactme" href="#contactme">Contact Me</a></li>
-        <li><a id="resume" href="#resume">Resume</a></li>
+        <li><a id="aboutmedeets" a href="#aboutme">About Me</a></li>
+        <li><a id="workdeets" a href="#work">Work</a></li>
+        <li><a id="contactmedeets" a href="#contactme">Contact Me</a></li>
+        <li><a id="resumedeets" a href="#resume">Resume</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Banner with Subtitle -->
+  <!-- Banner with <span> subtitle -->
   <article>
     <div id="banner">
       <span>✧ﾟ･:* Welcome *:･ﾟ✧
@@ -36,53 +36,63 @@
   <!-- About Me -->
   <main>
     <section id="aboutmedeets" class="aboutmearea">
-      <div class="sidebar">
+      <div id="sidebar">
         <h2>About Me</h2>
       </div>
-      <p class="About me about me about me things, and about me thangs"></p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.</p>
     </section>
 
     <!-- Previous Projects Flex Boxes-->
 
     <!-- Main flex box is "workarea" -->
     <section id="workdeets" class="workarea">
-      <div class="sidebar">
+      <div id="sidebar">
         <h3>Work</h3>
       </div>
       <div class="mainsection">
         <div class="project1">
+          <a href="actuallinkshappenmaybe.org" target="_blank">
+            <img src="./assets/images/chicago-freeze.jpg" alt="First Work" width="650" height="300"></a>
           <p>Project 1</p>
-          <a href="actuallinkshappenmaybe.org" target="_blank">
-            <img src="./assets/images/project-placeholder.webp" alt="First Work" width="400" height="400"></a>
         </div>
 
-        <!-- Smaller project "boxes" on the left -->
-        <div class="project2">
-          <p>Project 2</p>
-          <a href="actuallinkshappenmaybe.org" target="_blank">
-            <img src="./assets/images/project-placeholder.webp" alt="Second Work" width="400" height="400"></a>
+        <!-- project "boxes" on the left -->
+        <div class=smallerprojects>
+          <div class=projectleftside>
+            <div class=project2>
+              <a href="actuallinkshappenmaybe.org" target="_blank">
+                <img src="./assets/images/death-valley.jpg" alt="Second Work" width="325" height="100"></a>
+              <p>Project 2</p>
+            </div>
+            <div>
+              <a href="actuallinkshappenmaybe.org" target="_blank">
+                <img src="./assets/images/chicago-sky.png" alt="Third Work" width="400" height="100"></a>
+              <p>Project 3</p>
+            </div>
+          </div>
+
+          <!-- project "boxes" on the right -->
+          <div class=projectrightside>
+            <div>
+              <a href="actuallinkshappenmaybe.org" target="_blank">
+                <img src="./assets/images/malibu-2.JPG" alt="Fourth Work" width="400" height="100"></a>
+              <p>Project 4</p>
+            </div>
+            <div>
+              <a href="actuallinkshappenmaybe.org" target="_blank">
+                <img src="./assets/images/sequoia-sunset.JPG" alt="Fifth Work" width="400" height="100"></a>
+              <p>Project 5</p>
+
+            </div>
+          </div>
         </div>
 
-        <div class="project3">
-          <p>Project 3</p>
-          <a href="actuallinkshappenmaybe.org" target="_blank">
-            <img src="./assets/images/project-placeholder.webp" alt="Third Work" width="400" height="400"></a>
-        </div>
-
-        <!-- "boxes" on the right -->
-        <div class="project4">
-          <p>Project 4</p>
-          <a href="actuallinkshappenmaybe.org" target="_blank">
-            <img src="./assets/images/project-placeholder.webp" alt="Fourth Work" width="400" height="400"></a>
-        </div>
-
-        <div class="project5">
-          <p>Project 5</p>
-          <a href="actuallinkshappenmaybe.org" target="_blank">
-            <img src="./assets/images/project-placeholder.webp" alt="Fifth Work" width="400" height="400"></a>
-        </div>
-      </div>
     </section>
+
 
     <!-- Contact Area -->
     <section id="contactdeets" class="contactmearea">
@@ -90,20 +100,16 @@
         <h4>Contact Information</h4>
       </div>
       <div class="mainsection">
-        <p>000-000-0000</p>
-        <p>email@email.com</p>
-        <a href="https://github.com/sadielinks" target="_blank">GitHub</a>
+      </div>
+
+      <ul id="contacts">
+        <li>"000-000-0000"</li>
+        <li>"email@email.com"</li>
+        <li><a href="https://github.com/sadielinks" target="_blank">GitHub</a></li>
+      </ul>
+
       </div>
     </section>
-
-    <!-- <section id="contactmedeets" class="contactmearea">
-        <div class="sidebar">
-        <h4>Contact Information</h4>
-        </div>
-            <p>000-000-0000</p>
-            <p>email@email.com</p>
-            <a href="https://github.com/sadielinks" target="_blank">GitHub</a>
-      </section> -->
 
     <!-- Resume (?)
       <section id="resumedeets" class="resumearea">
@@ -111,8 +117,6 @@
         <p>Check it out! - hehe jk it's not real... yet</p>
         <a href="https://github.com" target="_blank">Resume Download</a>
       </section> -->
-
-
 
   </main>
 

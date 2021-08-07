@@ -29,7 +29,7 @@ header h1 {
     color: whitesmoke;}
 
 nav ul {
-    justify-content: left;
+    /* justify-content: left; */
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     color: whitesmoke;
@@ -41,8 +41,8 @@ nav ul {
 
 li a {
     margin: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:  azure;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    color:  purple;
     text-decoration: none;
 }
 
@@ -51,15 +51,6 @@ li a:hover {
     text-decoration: underline;
     background-color: rgb(212, 131, 158);
 }
-
-/* #aboutme #work #contactme #resume {
-    margin-right: auto;
-} */
-
-/* body {
-    background-color: gray;
-} */
-
 
 span {
     height: auto;
@@ -77,50 +68,56 @@ span {
     width: 100%;
     height: 400px;
     background-size: cover;
-    
 }
 
 main {
     margin: 30px;
+    padding: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .aboutmearea {
     margin: 5px;
+    font-size: 30px;
     display: flex;
-    flex-direction: column;
-    /* text-align: justify; */
+    flex-direction: row;
+    text-align: start;
+    border: solid black 7px;
+    justify-content: space-around;
+    align-items: stretch;
 }
-
-/* .workdeets {
-    margin: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: olivedrab;
-} */
 
 .workarea {
     margin: 5px;
     font-size: 30px;
     display: flex;
     /* flex-wrap: wrap; */
-    flex-direction: row;
+    /* flex-direction: row; */
     text-align: justify;
-    border: solid black 10px;
+    border: solid black 7px;
     justify-content: space-around;
-    align-items: stretch;
+    /* align-items: stretch; */
 }
 
-.sidebar {
+#sidebar {
     border-right: solid green 5px;
+    font-size: 30px;
     margin: 20px;
     padding: 20px;
     height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .mainsection {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
+    margin: 40px;
 }
 
 .project1 {
@@ -130,65 +127,104 @@ main {
     text-align: center;
     border-radius: 20px;
     width: 100%;
-    border: solid black 10px;
+    border: solid black 5px;
 }
 
-.project2 .project3 {
+.project1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black 5px;
+}
+
+.smallerprojects {
+    display: flex;
+    flex-direction:row;
+}
+
+.projectleftside {
     margin: 5px;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     text-align: center;
     border-radius: 20px;
     width: 100%;
-    border: solid black 10px;
 }
 
-.project4 .project5 {
+
+.projectrightside {
     margin: 5px;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     text-align: center;
     border-radius: 20px;
     width: 100%;
-    border: solid black 10px;
 }
 
 .contactmearea {
     margin: 5px;
     font-size: 30px;
     display: flex;
-    flex-direction: column;
-    border: solid black 10px;
+    flex-direction: row;
+    text-align: start;
+    border: solid black 7px;
+    justify-content: space-around;
+    align-items: stretch;  
 }
 
-.resumearea {
+#contacts {
+    margin: 10px;
+    width: 300px;
+    color: darkslategrey;
+}
+
+#contacts li {
+    float:inherit;
+    display: block;
+    width: 120px;
+    margin-bottom: 2px;
+    color: black;
+
+}
+
+#contacts a {
+    display: block;
+    color: slateblue;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .resumearea {
     margin: 5px;
     font-size: 30px;
     display: flex;
     flex-direction: column;
     border: solid black 10px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+} */
 
 footer {
     padding: 30px;
+    margin: 30px;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
