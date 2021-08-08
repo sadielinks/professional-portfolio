@@ -18,6 +18,6 @@ This application allows for a "visually appealing" portfolio to launch, and then
 
 ## Links
 
-[Deployed App](https://sadielinks.com)
+[Deployed App](https://sadielinks.github.io/professional-portfolio/)
 
 [GitHub Repository](https://github.com/sadielinks/professional-portfolio)
