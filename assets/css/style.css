@@ -57,7 +57,7 @@ article {
     justify-content: flex-end;
     flex-direction: row;
     background: url("../images/banner-placeholder.png") no-repeat center;
-    width: 100%;
+    width: auto;
     height: 400px;
     bottom: 10px;
     background-size: cover;
@@ -76,6 +76,7 @@ main {
 
 .aboutmearea {
     margin: 5px;
+    padding: 50px;
     font-size: 30px;
     display: flex;
     flex-direction: row;
@@ -88,40 +89,41 @@ main {
     font-size: 30px;
     margin: 20px;
     padding: 20px;
-    height: 100%;
+    height: 150%%;
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
+    align-content: right;
+
 }
 
 .subheaders {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 800;
 }
 
 .workarea {
     margin: 5px;
-    font-size: 30px;
+    padding: 50px;
+    font-size: 20px;
     display: flex;
     flex-direction: start;
     text-align: justify;
     border: solid black 7px;
-    justify-content: space-around;
-    /* align-items: stretch; */
-}
-
-.mainprojectsection {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    /* margin: 40px; */
+    align-items: stretch;
 }
 
 img {
-    width: auto%;
-    height: auto;
-    display: block;
+    max-width: 100%;
+    max-height: 100%;
 }
+.mainprojectsection {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-content: center;
+    /* margin: 40px; */
+}
+
 .project1:hover {
     margin: 5px;
     opacity: 100%;}
@@ -134,14 +136,6 @@ img {
     text-align: center;
     border-radius: 20px;
     width: 100%;
-    border: solid black 5px;
-}
-
-.project1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: black 5px;
 }
 
 .smallerprojects {
@@ -156,9 +150,7 @@ img {
     flex-direction: column;
     text-align: center;
     border-radius: 20px;
-    width: 100%;
 }
-
 
 .projectrightside {
     margin: 5px;
@@ -167,17 +159,16 @@ img {
     flex-direction: column;
     text-align: center;
     border-radius: 20px;
-    width: 100%;
 }
 
 .contactmearea {
     margin: 5px;
+    padding: 50px;
     font-size: 30px;
     display: flex;
-    flex-direction: row;
+    flex-direction: start;
     text-align: justify;
     border: solid black 7px;
-    justify-content: space-around;
     align-items: stretch;  
 }
 

@@ -15,11 +15,12 @@ This application allows for a "visually appealing" portfolio to launch, and then
 ## Screenshot of Portfolio
 
 
-## Mock-Up (?)
+## Mock-Up
 
-![portfolio demo](./assets/)
+![portfolio demo](./assets/images/project-placeholder.jpg)
 
 ## Links
 
 [Deployed App](https://sadielinks.com)
+
 [GitHub Repository](https://github.com/sadielinks/professional-portfolio)
