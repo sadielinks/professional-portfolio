@@ -28,15 +28,12 @@ header h1 {
 }
 
 nav ul {
-    /* justify-content: left; */
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     color: whitesmoke;
-    /* padding: 10px; */
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
-    /* float: left; */
 }
 
 li a {
@@ -49,7 +46,7 @@ li a {
 li a:hover {
     margin: 30px;
     text-decoration: underline;
-    background-color: rgb(212, 131, 158);
+    background-color: lavender;
 }
 
 /* Banner + Photo */
@@ -81,12 +78,11 @@ main {
     display: flex;
     flex-direction: row;
     align-content: center;
-    /* border: groove black 7px; */
 }
 
 /* To create "subtitles" to the left of each section */
 #sidebar {
-    border-right: solid plum 5px;
+    border-right: solid thistle 5px;
     border-bottom: solid purple 5px;
     font-size: 30px;
     margin: 20px;
@@ -109,7 +105,6 @@ main {
     font-size: 20px;
     display: flex;
     flex-direction: start;
-    /* border: solid black 7px; */
     align-items: stretch;
 }
 
@@ -147,7 +142,6 @@ img {
     flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
-    /* border-radius: 20px; */
     width: 100%;
 }
 
@@ -156,7 +150,6 @@ img {
     flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
-    /* border-radius: 20px; */
     width: 100%;
 }
 
@@ -167,7 +160,6 @@ img {
     display: flex;
     flex-direction: start;
     text-align: justify;
-    /* border: solid black 7px; */
     align-items: stretch;  
 }
 
@@ -201,12 +193,15 @@ footer {
 }
 
 /* In order for the website to have a responsive layout */
-@media screen and (man-width: 768px) {
+@media screen and (min-width: 768px) {
     header,
     nav 
     main, {
-        display: flex;
-        flex-wrap: wrap;
+        /* display: flex; */
         flex-direction: column;
     }
+  }
+
+  @media screen and (min-width: 1200px) {
+              
   }
