@@ -57,7 +57,7 @@ article {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
-    background: url("../images/banner-placeholder.png") no-repeat center;
+    background: url("../images/malibu-2.JPG") no-repeat center;
     width: auto;
     height: 400px;
     bottom: 10px;
@@ -147,22 +147,20 @@ img {
 }
 
 .projectleftside {
-    margin: 5px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     width: 100%;
 }
 
 .projectrightside {
-    margin: 5px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     width: 100%;
 }
 
