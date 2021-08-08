@@ -86,8 +86,8 @@ main {
 }
 
 #sidebar {
-    border-right: solid green 5px;
-    border-bottom: solid green 5px;
+    border-right: solid plum 5px;
+    border-bottom: solid purple 5px;
     font-size: 30px;
     margin: 20px;
     padding: 20px;
@@ -109,7 +109,6 @@ main {
     font-size: 20px;
     display: flex;
     flex-direction: start;
-    text-align: justify;
     /* border: solid black 7px; */
     align-items: stretch;
 }
@@ -119,9 +118,6 @@ img {
     max-height: 100%;
 }
 .mainprojectsection {
-    display: flex;
-    /* flex-wrap: wrap; */
-    flex-direction: column;
     align-content: center;
     width: 100%;
 }
@@ -143,7 +139,6 @@ img {
 .smallerprojects {
     display: flex;
     flex-direction:row;
-    width: 100%;
 }
 
 .projectleftside {
@@ -178,11 +173,10 @@ img {
 #contacts {
     margin: 10px;
     width: 1000px;
-    /* color: darkslategrey; */
-margin: auto;}
+    margin: auto;
+}
 
 #contacts li {
-    /* margin-bottom: 2px; */
     padding: 5px;
     color: black;
     float: left;
@@ -195,7 +189,6 @@ margin: auto;}
 #contacts a {
     color: slateblue;
     justify-content: space-around;
-    /* display: inline-block; */
 }
 
 footer {
@@ -206,12 +199,13 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-@media screen and (max-width: 768px) {
-    header {
+@media screen and (man-width: 768px) {
+    header,
+    nav {
       flex-direction: column;
     }
   
     main {
-      max-width: 1200px;
+      max-width: 100px;
     }
   }
