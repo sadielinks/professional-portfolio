@@ -5,16 +5,14 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* Starts applying css section by section */
+/* Header */
 header {
-    /* padding: 0px; */
     width: 100%;
     height: auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     text-align: left;
     flex-wrap: wrap;
-    /* background-color: whitesmoke; */
 } 
 
 header nav {
@@ -26,7 +24,8 @@ header nav {
 }
 
 header h1 {
-    color: whitesmoke;}
+    color: whitesmoke;
+}
 
 nav ul {
     /* justify-content: left; */
@@ -53,6 +52,7 @@ li a:hover {
     background-color: rgb(212, 131, 158);
 }
 
+/* Banner + Photo */
 article {
     display: flex;
     justify-content: flex-end;
@@ -64,15 +64,14 @@ article {
     background-size: cover;
 }
 
+/* Will contain about me, work, and contact info */
 main {
     margin: auto;
     padding: auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
-    /* flex-wrap: wrap; */
     flex-direction: column;
     justify-content: left;
-    /* width: 100%; */
 }
 
 .aboutmearea {
@@ -85,6 +84,7 @@ main {
     /* border: groove black 7px; */
 }
 
+/* To create "subtitles" to the left of each section */
 #sidebar {
     border-right: solid plum 5px;
     border-bottom: solid purple 5px;
@@ -113,6 +113,7 @@ main {
     align-items: stretch;
 }
 
+/* For uniformity in project images */
 img {
     max-width: 100%;
     max-height: 100%;
@@ -199,13 +200,13 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* In order for the website to have a responsive layout */
 @media screen and (man-width: 768px) {
     header,
-    nav {
-      flex-direction: column;
-    }
-  
-    main {
-      max-width: 100px;
+    nav 
+    main, {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
   }
