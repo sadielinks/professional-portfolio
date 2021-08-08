@@ -68,9 +68,10 @@ main {
     padding: auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: column;
-    width: 100%;
+    justify-content: left;
+    /* width: 100%; */
 }
 
 .aboutmearea {
@@ -78,35 +79,9 @@ main {
     font-size: 30px;
     display: flex;
     flex-direction: row;
-    /* text-align: start; */
-    /* justify-content: space-around; */
     align-content: center;
-    border: solid black 7px;
+    border: groove black 7px;
 }
-
-.aboutmewords {
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    width: auto;
-}
-
-.workarea {
-    margin: 5px;
-    font-size: 30px;
-    display: flex;
-    opacity: 75%;
-    /* flex-wrap: wrap; */
-    /* flex-direction: row; */
-    text-align: justify;
-    border: solid black 7px;
-    justify-content: space-around;
-    /* align-items: stretch; */
-}
-
-.project1:hover {
-    margin: 5px;
-    opacity: 100%;}
 
 #sidebar {
     border-right: solid green 5px;
@@ -119,12 +94,38 @@ main {
     align-content: center;
 }
 
-.mainsection {
+.subheaders {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.workarea {
+    margin: 5px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: start;
+    text-align: justify;
+    border: solid black 7px;
+    justify-content: space-around;
+    /* align-items: stretch; */
+}
+
+.mainprojectsection {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin: 40px;
+    /* margin: 40px; */
 }
+
+img {
+    width: auto%;
+    height: auto;
+    display: block;
+}
+.project1:hover {
+    margin: 5px;
+    opacity: 100%;}
+
 
 .project1 {
     margin: 5px;
