@@ -14,10 +14,7 @@ This application allows for a "visually appealing" portfolio to launch, and then
 
 ## Screenshot of Portfolio
 
-
-## Mock-Up
-
-![portfolio demo](./assets/images/project-placeholder.jpg)
+![portfolio demo](./assets/images/screenshot.png)
 
 ## Links
 
