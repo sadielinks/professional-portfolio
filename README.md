@@ -1,4 +1,7 @@
 # Professional Portfolio (Bootcamp Assignment 2 - Advanced CSS)
+---
+By: Sadie Sial
+___
 
 ## User Story
 
@@ -18,6 +21,21 @@ This application allows for a "visually appealing" portfolio to launch, and then
 
 ## Links
 
-[Deployed App](https://sadielinks.github.io/professional-portfolio/)
+- [Deployed App](https://sadielinks.github.io/professional-portfolio/)
 
-[GitHub Repository](https://github.com/sadielinks/professional-portfolio)
+- [GitHub Repository](https://github.com/sadielinks/professional-portfolio)
+
+
+## Technologies Used
+- HTML + CSS
+
+
+## Contact Information
+
+- [GitHub Profile](https://github.com/sadielinks)
+- [Email](mailto:sadiecodes@gmail.com)
+
+
+## License
+
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
