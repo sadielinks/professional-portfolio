@@ -123,14 +123,19 @@ img {
     display: flex;
     flex-direction:column;
     text-align: center;
-    border-radius: 20px;
+    border-radius: auto;
     width: 100%;
+    /* border: rgb(222, 217, 225) 4px solid; */
 }
 
 .smallerprojects {
     display: flex;
     flex-direction:row;
     /* align-items: center; */
+}
+
+.title {
+    width: 380px;
 }
 
 .projectleftside {
@@ -147,6 +152,14 @@ img {
     flex-direction: column;
     text-align: center;
     width: 100%;
+}
+
+.project2, .project3, .project4, .project5 {
+    /* border: rgb(222, 217, 225) 4px solid; */
+    width: 100%;
+    height: 100;
+    max-width: 100%;
+    border-radius: auto;
 }
 
 .contactmearea {
