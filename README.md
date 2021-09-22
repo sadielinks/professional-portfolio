@@ -17,7 +17,8 @@ This application allows for a "visually appealing" portfolio to launch, and then
 
 ## Screenshot of Portfolio
 
-![portfolio demo](./assets/images/screenshot.png)
+![screenshot](./assets/images/screenshot.png)
+![screenshot](./assets/images/resumescreenshot.png)
 
 ## Links
 
