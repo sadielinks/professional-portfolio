@@ -36,6 +36,8 @@ This application allows for a "visually appealing" portfolio to launch, and then
 - [GitHub Profile](https://github.com/sadielinks)
 - [Email](mailto:sadiecodes@gmail.com)
 
+My name is Sadie Sial and I am taking this Full-Stack Coding Bootcamp through my current employer.
+
 
 ## License
 
