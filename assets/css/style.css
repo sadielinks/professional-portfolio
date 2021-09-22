@@ -202,13 +202,47 @@ footer {
 }
 
 /* In order for the website to have a responsive layout */
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     header,
     nav 
     main,
-    p {
+    p { */
         /* display: flex; */
-        flex-direction: column;
+        /* flex-direction: column;
         font-size: auto;
     }
+  } */
+
+  .header {
+    background-color: #46B4CE !important;
+    background:  url(images/loot-whiteArtboard%201@0.75x.png) no-repeat center center;
+    background-size: 30%;
+    position: relative;
+    margin-top: 25px;
+    height: 20em;
+}
+
+/*extra small devices*/
+@media (min-width: 300px) {
+  .header {
+    background-size: 55%;
+    height: 15em;
   }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .header {
+        background-size: 40%;
+    }
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .header {
+        background-size: 30%;
+    }
+}
+
+.btn{
+    margin-left:10px;
+    margin-top:8px;
+}
