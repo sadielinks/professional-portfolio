@@ -16,9 +16,15 @@ This application allows for a "visually appealing" portfolio to launch, and then
 ```
 
 ## Screenshot of Portfolio
-
+```
+Web Display
+```
 ![screenshot](./assets/images/screenshot.png)
-![screenshot](./assets/images/resumescreenshot.png)
+
+```
+Mobile Display
+```
+![screenshot](./assets/images/mobilescreenshot.png)
 
 ## Links
 
