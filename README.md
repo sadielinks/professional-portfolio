@@ -47,4 +47,6 @@ My name is Sadie Sial and I am taking this Full-Stack Coding Bootcamp through my
 
 ## License
 
+This source code is available to everyone under the standard [MIT License ©](https://github.com/microsoft/vscode/blob/master/LICENSE.txt). <br>
+
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
