@@ -85,7 +85,7 @@ nav ul li {
     font-weight: var(--bold-font);
 }
 
-.self-img {
+.self-img-about {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,8 +95,8 @@ nav ul li {
 }
 
 .my-face {
-    height: 37.5rem;
-    width: 30.5rem;
+    height: 25.5rem;
+    width: 20.5rem;
 }
   
 .about-me-box {
