@@ -2,6 +2,14 @@
 :root {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(238, 233, 245);
+    --font-family: Trebuchet;
+    --normal-font: 400;
+    --bold-font: 700;
+    --bolder-font: 900;
+    --primary-color: #795eb0;
+    --secondary-color: #19ac8589;
+    --primary-shadow: #a1a7e9;
+    --secondary-shadow: #e9a775;
 };
 
 * {
@@ -20,13 +28,12 @@ ul {
 }
 
 a {
-    color:  purple;
     text-decoration: none;
+    color:  var(--primary-color);
 }
 
 a:hover {
-    text-decoration: underline;
-    background-color: thistle;
+    color: var(--secondary-color)
 }
 
 /* the OG css */
