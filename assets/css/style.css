@@ -53,20 +53,38 @@ nav {
     box-shadow: 0 3px 5px rgb(116, 101, 123);
 };
 
+nav h1 {
+    color: var(--primary-color);
+}
+  
+nav a {
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+  
+nav a:hover {
+    color: var(--secondary-color);
+}
+  
+nav ul {
+    display: flex;
+    gap: 0.75rem;
+}
+  
+nav ul li {
+    font-weight: var(--bold-font);
+  }
 
 
 
-
-
-
-header {
+/* header {
     width: 100%;
     height: auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     text-align: left;
     flex-wrap: wrap;
-} 
+}  */
 
 header nav {
     justify-content: space-around;
@@ -79,7 +97,6 @@ header nav {
 header h1 {
     color: whi;
 }
-
 
 
 /* nav ul {
