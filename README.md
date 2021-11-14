@@ -1,4 +1,4 @@
-# Professional Portfolio (Bootcamp Assignment 2 - Advanced CSS)
+# Professional Portfolio CURRENTLY UNDER RE-CONSTRUCTION!!! (Bootcamp Assignment) 
 ---
 By: Sadie Sial
 ___
