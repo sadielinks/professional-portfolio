@@ -1,4 +1,4 @@
-/* Applies to all elements  */
+/* Apply to DOM elements  */
 :root {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(238, 233, 245);
@@ -23,6 +23,7 @@ html {
     scroll-behavior: smooth;
 };
 
+/* nav list item styling */
 ul {
     list-style-type: none;
 }
@@ -60,7 +61,7 @@ header h1 {
     color: whi;
 }
 
-nav ul {
+/* nav ul {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     color: whitesmoke;
@@ -71,10 +72,10 @@ nav ul {
 
 li a {
     margin: 30px;
-    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-    color:  purple;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* color:  purple;
     text-decoration: none;
-}
+} */
 
 
 /* Banner + Photo */
