@@ -83,7 +83,7 @@ nav ul {
   
 nav ul li {
     font-weight: var(--bold-font);
-  }
+}
 
 
 
@@ -207,13 +207,13 @@ li a {
     border-radius: auto;
     width: 100%;
     /* border: rgb(222, 217, 225) 4px solid; */
-/* } */ */
+/* } */
 
 /* .smallerprojects {
     display: flex;
     flex-direction:row;
     /* align-items: center; */
-} */*
+    /*
 
 .title {
     width: 380px;
