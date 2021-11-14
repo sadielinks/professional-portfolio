@@ -9,7 +9,7 @@
     --primary-color: #795eb0;
     --secondary-color: #19ac8589;
     --primary-shadow: #a1a7e9;
-    --secondary-shadow: #e9a775;
+    --secondary-shadow: #9ab8a8;
     /* --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
     --line-height: 1.7rem;
@@ -84,6 +84,42 @@ nav ul {
 nav ul li {
     font-weight: var(--bold-font);
 }
+
+.self-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+}
+
+.my-face {
+    height: 37.5rem;
+    width: 30.5rem;
+}
+  
+.about-me-box {
+    border-radius: 6px;
+    box-shadow: 0px 2px 10px 2px var(--primary-shadow);
+}
+  
+.bio h2 {
+    margin-bottom: var(--bottom-margin);
+}
+  
+.bio p {
+    line-height: var(--line-height);
+    padding: 0.3rem 0;
+}
+  
+
+
+
+
+
+
+
 
 
 
