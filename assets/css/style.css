@@ -158,10 +158,19 @@ h2 {
     height: 60%;
 }
 
-.projects-title {
+.project-title {
     text-align: center;
     margin-bottom: 1rem;
 }
+
+.work-container {
+    text-align: center;
+    width: 21.875rem;
+    padding: 1rem;
+}
+
+
+
 
 
 
