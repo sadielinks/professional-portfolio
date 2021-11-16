@@ -147,6 +147,7 @@ h2 {
 .works {
     padding: 32px 0;
     margin-top: 2rem;
+    text-align: center;
 }
   
 .project-pic {
@@ -166,14 +167,12 @@ h2 {
 }
   
 .project-container {
-    text-align: center;
-    width: 21.875rem;
-    padding: 1rem;
+    width: 300px;
+    padding: 10px;
 }
 
 .work-container p {
     padding: 0.4rem;
-    background-color: lavender;
 }
   
 .project-title {
