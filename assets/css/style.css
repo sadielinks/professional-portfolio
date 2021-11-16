@@ -145,51 +145,59 @@ h2 {
 /* work section */
 
 .works {
-    padding: 32px 0;
-    margin-top: 2rem;
-    text-align: center;
+  padding: 32px 0;
+  margin-top: 2rem;
+  text-align: center;
 }
-  
+
 .project-pic {
-    width: 65%;
-    height: 60%;
+  width: 65%;
+  height: 60%;
 }
-  
+
 .works-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .my-work-title {
-    text-align: center;
-    margin-bottom: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
 }
-  
+
 .project-container {
-    width: 300px;
-    padding: 10px;
+  width: 300px;
+  padding: 10px;
 }
 
 .work-container p {
-    padding: 0.4rem;
+  padding: 0.4rem;
 }
-  
+
 .project-title {
-    margin-bottom: var(--bottom-margin);
+  margin-bottom: var(--bottom-margin);
 }
-  
+
 .project-details {
-    margin-bottom: var(--bottom-margin);
+  margin-bottom: var(--bottom-margin);
 }
-  
+
 .project-card {
-    background-color: #fff;
-    border-radius: 11px;
-    box-shadow: 0 3px 10px var(--primary-shadow);
-    padding: 20px;
-    margin: 10px;
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 20px;
+  margin: 10px;
 }
+
+/* contact */
+
+
+
+/* footer */
+
+
 
 
 
