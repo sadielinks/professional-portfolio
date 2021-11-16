@@ -193,7 +193,36 @@ h2 {
 
 /* contact */
 
+.contactmearea {
+    margin: 5px;
+    padding: 50px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: start;
+    text-align: justify;
+    align-items: stretch;  
+}
 
+#contacts {
+    margin: 10px;
+    width: 1000px;
+    margin: auto;
+}
+
+#contacts li {
+    padding: 5px;
+    color: slateblue;
+    float: left;
+    list-style-type: none;
+    text-decoration: none;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#contacts a {
+    color: slateblue;
+    justify-content: space-around;
+}
 
 /* footer */
 
