@@ -100,6 +100,12 @@ nav ul li {
     height: 25.5rem;
     width: 20.5rem;
 }
+
+h2 {
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0px 2px 5px 2px var(--primary-shadow);
+}
   
 .about-me-box {
     border-radius: 6px;
@@ -116,6 +122,23 @@ nav ul li {
 }
   
 /* skills section */
+
+.skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+  
+.skill-header {
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 5px 2px var(--primary-shadow);
+}
+  
+.skills-icon img {
+    padding: 1.25rem;
+}
 
 
 
