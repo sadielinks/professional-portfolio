@@ -1,173 +1,197 @@
 /* Applies to all elements  */
 :root {
-    /* avoiding repitition with CSS variables */
-    --font-family: Trebuchet;
-    --normal-font: 400;
-    --bold-font: 700;
-    --bolder-font: 900;
-    --bg-color: rgb(238, 233, 245);
-    --primary-color: #795eb0;
-    --secondary-color: #19ac8589;
-    --primary-shadow: #a1a7e9;
-    --secondary-shadow: #9ab8a8;
-    --bottom-margin: 0.5rem;
-    --bottom-margin-2: 1rem;
-    --line-height: 1.7rem;
-    --transition: 0.3s;
-};
+  /* avoiding repitition with CSS variables */
+  --font-family: Trebuchet;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --bg-color: rgb(238, 233, 245);
+  --primary-color: #795eb0;
+  --secondary-color: #19ac8589;
+  --primary-shadow: #a1a7e9;
+  --secondary-shadow: #9ab8a8;
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --transition: 0.3s;
+}
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-};
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
 
 html {
-    scroll-behavior: smooth;
-};
+  scroll-behavior: smooth;
+}
 
 /* body */
 body {
-    font-family: var(--font-family);
+  font-family: var(--font-family);
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 a {
-    text-decoration: none;
-    color:  var(--primary-color);
+  text-decoration: none;
+  color: var(--primary-color);
 }
 
 a:hover {
-    color: var(--secondary-color)
+  color: var(--secondary-color);
 }
 
 nav {
-    /* sticky navbar property */
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1.5rem 3.5rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: var(--bg-color);
-    /* shadow fx */
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  /* sticky navbar property */
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3.5rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: var(--bg-color);
+  /* shadow fx */
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav h1 {
-    color: var(--primary-color);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+  color: var(--primary-color);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-  
+
 nav a {
-    color: var(--primary-color);
-    transition: var(--transition);
+  color: var(--primary-color);
+  transition: var(--transition);
 }
-  
+
 nav a:hover {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }
-  
+
 nav ul {
-    display: flex;
-    gap: 0.75rem;
+  display: flex;
+  gap: 0.75rem;
 }
-  
+
 nav ul li {
-    font-weight: var(--bold-font);
+  font-weight: var(--bold-font);
 }
 
 /* img + about me */
 
 .self-img-about {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2.5rem;
-    max-width: 68.75rem;
-    margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 68.75rem;
+  margin: auto;
 }
 
 .my-face {
-    height: 25.5rem;
-    width: 20.5rem;
+  height: 25.5rem;
+  width: 20.5rem;
 }
 
 h2 {
-    text-align: center;
-    border-radius: 6px;
-    box-shadow: 0px 2px 5px 2px thistle;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0px 2px 5px 2px thistle;
 }
-  
+
 .about-me-box {
-    border-radius: 6px;
-    /* box-shadow: 0px 2px 5px 2px var(--primary-shadow); */
+  border-radius: 6px;
+  /* box-shadow: 0px 2px 5px 2px var(--primary-shadow); */
 }
-  
+
 .about-me {
-    margin-bottom: var(--bottom-margin);
+  margin-bottom: var(--bottom-margin);
 }
-  
+
 .about-me-text {
-    line-height: var(--line-height);
-    padding: 0.3rem 0;
+  line-height: var(--line-height);
+  padding: 0.3rem 0;
 }
-  
+
 /* skills section */
 
 .skills {
-    max-width: 68.75rem;
-    margin: auto;
-    text-align: center;
-    margin-top: 2.5rem;
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
 }
-  
+
 .skill-header {
-    margin-bottom: 1rem;
-    border-radius: 6px;
-    box-shadow: 0px 2px 5px 2px thistle;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  box-shadow: 0px 2px 5px 2px thistle;
 }
-  
+
 .skills-icon img {
-    padding: 1.25rem;
+  padding: 1.25rem;
 }
 
 /* work section */
 
 .work {
-    padding: 32px 0;
-    margin-top: 2rem;
+  padding: 32px 0;
+  margin-top: 2rem;
 }
 
 .work-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-pic {
-    width: 65%;
-    height: 60%;
+  width: 65%;
+  height: 60%;
 }
 
 .project-title {
-    text-align: center;
-    margin-bottom: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 .work-container {
-    text-align: center;
-    width: 21.875rem;
-    padding: 1rem;
+  text-align: center;
+  width: 300px;
+  padding: 1rem;
 }
+
+.project-container p {
+  padding: 0.4rem;
+}
+
+.project-title {
+  margin-bottom: var(--bottom-margin);
+}
+
+.project-details {
+  margin-bottom: var(--bottom-margin);
+}
+
+.project-card {
+  /* background-color:rgb(255, 242, 226); */
+  border-radius: 11px;
+  box-shadow: 0 3px 10px rgb(199, 238, 223);
+  padding: 20px;
+  margin: 10px;
+}
+
+
 
 
 
@@ -197,7 +221,6 @@ h2 {
     color: whi;
 } */
 
-
 /* nav ul {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
@@ -210,7 +233,7 @@ h2 {
 li a {
     margin: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-    /* color:  purple;
+/* color:  purple;
     text-decoration: none;
 } */
 
@@ -282,7 +305,7 @@ li a {
 .mainprojectsection {
     align-content: center;
     width: 100%;
-} */ 
+} */
 
 /* .project1 {
     margin: 5px;
@@ -298,7 +321,7 @@ li a {
     display: flex;
     flex-direction:row;
     /* align-items: center; */
-    /*
+/*
 
 .title {
     width: 380px;
@@ -322,7 +345,7 @@ li a {
 
 .project2, .project3, .project4, .project5 {
     /* border: rgb(222, 217, 225) 4px solid; */
-    /* width: 100%;
+/* width: 100%;
     height: 100;
     max-width: 100%;
     border-radius: auto;
@@ -373,13 +396,13 @@ li a {
     nav 
     main,
     p { */
-        /* display: flex; */
-        /* flex-direction: column;
+/* display: flex; */
+/* flex-direction: column;
         font-size: auto;
     }
   } */
 
-  /* .header {
+/* .header {
     background-color: #46B4CE !important;
     background:  url(images/loot-whiteArtboard%201@0.75x.png) no-repeat center center;
     background-size: 30%;
