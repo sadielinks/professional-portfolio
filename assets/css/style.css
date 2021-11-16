@@ -85,6 +85,8 @@ nav ul li {
     font-weight: var(--bold-font);
 }
 
+/* img + about me */
+
 .self-img-about {
     display: flex;
     align-items: center;
@@ -113,7 +115,7 @@ nav ul li {
     padding: 0.3rem 0;
 }
   
-
+/* skills section */
 
 
 
