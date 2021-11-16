@@ -144,51 +144,52 @@ h2 {
 
 /* work section */
 
-.work {
-  padding: 32px 0;
-  margin-top: 2rem;
+.works {
+    padding: 32px 0;
+    margin-top: 2rem;
 }
-
-.work-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
+  
 .project-pic {
-  width: 65%;
-  height: 60%;
+    width: 65%;
+    height: 60%;
+}
+  
+.works-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.my-work-title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+  
+.project-container {
+    text-align: center;
+    width: 21.875rem;
+    padding: 1rem;
+}
+
+.work-container p {
+    padding: 0.4rem;
+    background-color: lavender;
+}
+  
 .project-title {
-  text-align: center;
-  margin-bottom: 1rem;
+    margin-bottom: var(--bottom-margin);
 }
-
-.work-container {
-  text-align: center;
-  width: 300px;
-  padding: 1rem;
-}
-
-.project-container p {
-  padding: 0.4rem;
-}
-
-.project-title {
-  margin-bottom: var(--bottom-margin);
-}
-
+  
 .project-details {
-  margin-bottom: var(--bottom-margin);
+    margin-bottom: var(--bottom-margin);
 }
-
+  
 .project-card {
-  /* background-color:rgb(255, 242, 226); */
-  border-radius: 11px;
-  box-shadow: 0 3px 10px rgb(199, 238, 223);
-  padding: 20px;
-  margin: 10px;
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
 }
 
 
