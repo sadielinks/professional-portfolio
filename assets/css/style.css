@@ -138,6 +138,13 @@ h2 {
   box-shadow: 0px 2px 5px 2px thistle;
 }
 
+.skill-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
 .skills-icon img {
   padding: 1.25rem;
 }
@@ -193,10 +200,26 @@ h2 {
 
 /* contact */
 
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80%;
+  max-height: 80%;
+  justify-content: space-between;
+}
+
+
+.footer-container p {
+  text-align: right;
+  margin: 5px;
+  padding: 50px;
+
+}
+
 .contactmearea {
     margin: 5px;
     padding: 50px;
-    font-size: 30px;
+    font-size: 16px;
     display: flex;
     flex-direction: start;
     text-align: justify;
@@ -204,14 +227,14 @@ h2 {
 }
 
 #contacts {
-    margin: 10px;
+    /* margin: 10px; */
     width: 1000px;
-    margin: auto;
+    /* margin: auto; */
 }
 
 #contacts li {
     padding: 5px;
-    color: slateblue;
+    color: white;
     float: left;
     list-style-type: none;
     text-decoration: none;
@@ -220,16 +243,15 @@ h2 {
 }
 
 #contacts a {
-    color: slateblue;
+    color: white;
     justify-content: space-around;
 }
 
-/* footer */
-
 footer {
   padding: 1.25rem;
-  text-align: center;
-  margin: 2rem 0 0 0;
+  margin: 8rem 0 0 0;
+  background-color: var(--primary-color);
+  color: #fff;
 }
 
 
@@ -431,12 +453,12 @@ li a {
     header,
     nav 
     main,
-    p { */
-/* display: flex; */
-/* flex-direction: column;
+    p { 
+  display: flex; 
+ flex-direction: column;
         font-size: auto;
     }
-  } */
+  }  */
 
 /* .header {
     background-color: #46B4CE !important;
@@ -445,7 +467,7 @@ li a {
     position: relative;
     margin-top: 25px;
     height: 20em;
-} */
+}  */
 
 /*extra small devices*/
 /* @media (min-width: 300px) {
@@ -453,19 +475,19 @@ li a {
     background-size: 55%;
     height: 15em;
   }
-} */
+}  */
 /* Small devices (tablets, 768px and up) */
 /* @media (min-width: 768px) {
     .header {
         background-size: 40%;
     }
-}
+} */
 /* Medium devices (desktops, 992px and up) */
-/* @media (min-width: 992px) {
+ /* @media (min-width: 992px) {
     .header {
         background-size: 30%;
     }
-} */
+}  */
 
 /* .btn{
     margin-left:10px;
