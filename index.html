@@ -1,164 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- Website title + stylesheet linking -->
+<!-- Website title + stylesheet linking -->
 
-  <head>
-    <meta charset="UTF-8" />
-    <title>Sadie Sial *:･ﾟ✧</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-      crossorigin="anonymous"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <title>Sadie Sial *:･ﾟ✧</title>
 
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
+  <!-- Browser Icon -->
+  <link rel="icon" href="https://img.icons8.com/small/16/ffffff/code.png">
 
-  <!-- Body will contain content from header nav to footer-->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
 
-  <body>
-    <!-- Header -->
-    <header>
-      <!-- Navbar -->
-      <nav>
-        <h1>Hi, I'm Sadie Sial</h1>
-        <ul class="navigation">
-          <li><a href="#about" class="nav-link">About</a></li>
-          <li><a href="#skills" class="nav-link">Skills</a></li>
-          <li><a href="#work" class="nav-link">Work</a></li>
-          <li><a href="#contact" class="nav-link">Contact</a></li>
-          <li>
-            <a
-              href="https://sadielinks.github.io/professional-portfolio/assets/coding.resume.pdf"
-              class="nav-link"
-              target="_blank"
-              >Resume</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
+  <!-- Font Awsome -->
+  <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<!-- Body will contain content from header nav to footer-->
+
+<body>
+  <!-- Header -->
+  <header>
+    <!-- Navbar -->
+    <nav>
+      <h1>Hi, I'm Sadie Sial</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#work" class="nav-link">Work</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li>
+          <a href="https://sadielinks.github.io/professional-portfolio/assets/coding.resume.pdf" class="nav-link"
+            target="_blank">Resume</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
   <!-- Img + About Me -->
-    <main>
-      <section class="self-img-about" id="about">
-        <img
-          src="assets/images/recentphoto.jpg"
-          alt="Photo of Sadie Sial"
-          loading="lazy"
-          class="my-face"
-        />
-        <div class="about-me-box">
-          <h2 class="about-me">About Me</h2>
-          <p class="about-me-text">
-            My name is Sadie Sial and I am currently a Clinical Research
-            Coordinator at Northwestern University's Feinberg School of
-            Medicine. I am currently enrolled in NU's Full-Stack Bootcamp
-            program through my department. I hope to obtain necessary
-            development skills required for interesting new projects on the
-            horizon! These projects would mostly include back-end development,
-            but I have been enjoying the front-end development we have tapped
-            into the first nine weeks of the course.
-          </p>
-        </div>
-      </section>
-
-<!-- Skills -->
-<section class="skills" id="skills">
-  <h2 class="skill-header">My Top Skills</h2>
-  <div class="skills-icon">
-
-    <!-- top row -->
-    <div class="first-set animate__animated animate__pulse">
-
-      <!-- HTML -->
-      <img
-        src="https://img.icons8.com/ios-filled/50/000000/html-5--v1.png" alt="HTML 5"/>
-
-      <!-- JS -->
-      <img
-        src="https://img.icons8.com/ios-filled/50/000000/javascript.png" alt="Javascript ES2015"/>
-
-      <!-- CSS -->
-      <img 
-        src="https://img.icons8.com/ios-filled/60/000000/css3.png" alt="CSS 3"/>
-
-      <!-- GIT -->
-      <img 
-        src="https://img.icons8.com/ios-glyphs/62/000000/github.png" alt="GitHub"/>
-
-      <!-- SQL -->
-      <img 
-        src="https://img.icons8.com/ios/75/000000/mysql-logo.png" alt="MySQL"/>
-
-      <!-- Postgress -->
-      <img 
-      src="https://img.icons8.com/ios-filled/50/000000/postgreesql.png" alt="PostgreSQL"/>
-      
-      <!-- Node.JS -->
-      <img 
-        src="https://img.icons8.com/windows/60/000000/node-js.png" alt="Node.js" />
-
-      <!-- Heroku -->
-      <img 
-        src="https://img.icons8.com/ios-filled/48/000000/heroku.png" alt="Heroku Deployment" />
-
-
-    </div>
-  </div>
-</section>
-
-<!-- Work/Projects -->
-<section class="works" id="works">
-  <h2 class="my-work-title">Work</h2>
-  <div class="works-container">
-
-    <!-- Project #1 -->
-    <div class="work-container project-card">
-      <img
-        src="assets/images/swept.png"
-        alt="SWEPT"
-        loading="lazy"
-        class="project-pic"
-      />
-      <h3 class="project-title"><a href="https://elliottdombrowski.github.io/NU-Project-1/" target="_blank">SWEPT!</a></h3>
-      <p class="project-details">PROJECT 1 Mobile-first street-sweeping schedule tool that provides monthly cleaning dates, city ward, and zip code information from the various City of Chicago APIs.</p>
-      <a href="https://github.com/elliottdombrowski/NU-Project-1" target="_blank" class="project-link">GitHub Repository</a>
-    </div>
-
-    <!-- Project #2 -->
-    <div class="work-container project-card">
-      <img
-        src="assets/images/swept.png"
-        alt="SWEPT"
-        loading="lazy"
-        class="project-pic"
-      />
-      <h3 class="project-title"><a href="https://elliottdombrowski.github.io/NU-Project-1/" target="_blank">SWEPT!</a></h3>
-      <p class="project-details">PROJECT 2 Mobile-first street-sweeping schedule tool that provides monthly cleaning dates, city ward, and zip code information from the various City of Chicago APIs.</p>
-      <a href="https://github.com/elliottdombrowski/NU-Project-1" target="_blank" class="project-link">GitHub Repository</a>
-    </div>
-
-    <!-- Project #3 -->
-    <div class="work-container project-card">
-      <img
-        src="assets/images/swept.png"
-        alt="SWEPT"
-        loading="lazy"
-        class="project-pic"
-      />
-      <h3 class="project-title"><a href="https://elliottdombrowski.github.io/NU-Project-1/" target="_blank">SWEPT!</a></h3>
-      <p class="project-details">PROJECT 3 Mobile-first street-sweeping schedule tool that provides monthly cleaning dates, city ward, and zip code information from the various City of Chicago APIs.</p>
-      <a href="https://github.com/elliottdombrowski/NU-Project-1" target="_blank" class="project-link">GitHub Repository</a>
-    </div>
-    </div>
+  <main>
+    <section class="self-img-about" id="about">
+      <img src="assets/images/recentphoto.jpg" alt="Photo of Sadie Sial" loading="lazy" class="my-face" />
+      <div class="about-me-box">
+        <h2 class="about-me">About Me</h2>
+        <p class="about-me-text">
+          My name is Sadie Sial and I am currently a Clinical Research
+          Coordinator at Northwestern University's Feinberg School of
+          Medicine. I am currently enrolled in NU's Full-Stack Bootcamp
+          program through my department. I hope to obtain necessary
+          development skills required for interesting new projects on the
+          horizon! These projects would mostly include back-end development,
+          but I have been enjoying the front-end development we have tapped
+          into the first nine weeks of the course.
+        </p>
+      </div>
     </section>
-    </main>
-    </body>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+      <div class="skills-icon">
+
+        <!-- top row -->
+        <div class="first-set animate__animated animate__pulse">
+
+          <!-- HTML -->
+          <img src="https://img.icons8.com/ios-filled/50/000000/html-5--v1.png" alt="HTML 5" />
+
+          <!-- JS -->
+          <img src="https://img.icons8.com/ios-filled/50/000000/javascript.png" alt="Javascript ES2015" />
+
+          <!-- CSS -->
+          <img src="https://img.icons8.com/ios-filled/60/000000/css3.png" alt="CSS 3" />
+
+          <!-- GIT -->
+          <img src="https://img.icons8.com/ios-glyphs/62/000000/github.png" alt="GitHub" />
+
+          <!-- SQL -->
+          <img src="https://img.icons8.com/ios/75/000000/mysql-logo.png" alt="MySQL" />
+
+          <!-- Postgress -->
+          <img src="https://img.icons8.com/ios-filled/50/000000/postgreesql.png" alt="PostgreSQL" />
+
+          <!-- Node.JS -->
+          <img src="https://img.icons8.com/windows/60/000000/node-js.png" alt="Node.js" />
+
+          <!-- Heroku -->
+          <img src="https://img.icons8.com/ios-filled/48/000000/heroku.png" alt="Heroku Deployment" />
 
 
-  <!-- Contact -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Work/Projects -->
+    <section class="works" id="works">
+      <h2 class="my-work-title">Work</h2>
+      <div class="works-container">
+
+        <!-- Project #1 -->
+        <div class="work-container project-card">
+          <img src="assets/images/swept.png" alt="SWEPT" loading="lazy" class="project-pic" />
+          <h3 class="project-title"><a href="https://elliottdombrowski.github.io/NU-Project-1/"
+              target="_blank">SWEPT!</a></h3>
+          <p class="project-details">PROJECT 1 Mobile-first street-sweeping schedule tool that provides monthly cleaning
+            dates, city ward, and zip code information from the various City of Chicago APIs.</p>
+          <a href="https://github.com/elliottdombrowski/NU-Project-1" target="_blank" class="project-link">GitHub
+            Repository</a>
+        </div>
+
+        <!-- Project #2 -->
+        <div class="work-container project-card">
+          <img src="assets/images/swept.png" alt="SWEPT" loading="lazy" class="project-pic" />
+          <h3 class="project-title"><a href="https://elliottdombrowski.github.io/NU-Project-1/"
+              target="_blank">SWEPT!</a></h3>
+          <p class="project-details">PROJECT 2 Mobile-first street-sweeping schedule tool that provides monthly cleaning
+            dates, city ward, and zip code information from the various City of Chicago APIs.</p>
+          <a href="https://github.com/elliottdombrowski/NU-Project-1" target="_blank" class="project-link">GitHub
+            Repository</a>
+        </div>
+
+        <!-- Project #3 -->
+        <div class="work-container project-card">
+          <img src="assets/images/swept.png" alt="SWEPT" loading="lazy" class="project-pic" />
+          <h3 class="project-title"><a href="https://elliottdombrowski.github.io/NU-Project-1/"
+              target="_blank">SWEPT!</a></h3>
+          <p class="project-details">PROJECT 3 Mobile-first street-sweeping schedule tool that provides monthly cleaning
+            dates, city ward, and zip code information from the various City of Chicago APIs.</p>
+          <a href="https://github.com/elliottdombrowski/NU-Project-1" target="_blank" class="project-link">GitHub
+            Repository</a>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+
+<!-- Contact -->
 <!-- 
   <section id="contactmedeets" class="contactmearea">
     <div id="sidebar">
@@ -176,30 +158,30 @@
   </section> -->
 
 
-  <!-- Footer -->
-  <footer>
-    <section class="footer-container">
-
+<!-- Footer -->
+<footer>
+  <section class="footer-container">
+    <!-- 
          <ul id="contacts">
           <li><a href="tel:(920)-368-6336">(920)-368-6336</a></li>
           <li><a href="mailto:sadiecodes@gmail.com" target="_blank">Email</a></li>
           <li><a href="https://www.linkedin.com/in/sadie-sial-bootcamp" target="_blank">LinkedIn</a></li>
           <li><a href="https://github.com/sadielinks" target="_blank">GitHub</a></li>
-        </ul>
-      
+        </ul> -->
+
     <p>
-        Made with ✨&nbsp;&nbsp; in Chicago by Sadie Sial
+      Made with ✨&nbsp; in Chicago by Sadie Sial
     </p>
-    </section>
+  </section>
 </footer>
 
 </html>
 
 
-    <!-- id for nav bar + class for css -->
-    <!-- <section id="aboutmedeets" class="aboutmearea"> -->
-    <!-- "sidebar" is used throughout <main> for horizontal line css-->
-    <!-- <div id="sidebar">
+<!-- id for nav bar + class for css -->
+<!-- <section id="aboutmedeets" class="aboutmearea"> -->
+<!-- "sidebar" is used throughout <main> for horizontal line css-->
+<!-- <div id="sidebar">
         <header class="subheaders">About Me</header>
       </div>
           <p>My name is Sadie Sial and I am currently a Clinical Research Coordinator at Northwestern University's Feinberg School of Medicine.
@@ -209,19 +191,19 @@
           </p>
     </section> -->
 
-    <!-- Project Flex Boxes-->
+<!-- Project Flex Boxes-->
 
-    <!-- All projects encompassed in "workarea" -->
-    <!-- <section id="workdeets" class="workarea">
+<!-- All projects encompassed in "workarea" -->
+<!-- <section id="workdeets" class="workarea">
       <div id="sidebar">
         <header class="subheaders">Work</header>
       </div> -->
-    <!-- To make the first project larger it's in its own class -->
-    <!-- This is a real, deployed application -->
-    <!-- <div class="mainprojectsection">
+<!-- To make the first project larger it's in its own class -->
+<!-- This is a real, deployed application -->
+<!-- <div class="mainprojectsection">
           <div class="project1">
             <div class="card mb-3"> -->
-    <!-- <img src="./assets/images/swept.png" class="card-img-top" alt="...">
+<!-- <img src="./assets/images/swept.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title"><a href="https://elliottdombrowski.github.io/NU-Project-1/" target="_blank">SWEPT!</a></h5>
                 <p class="card-text">Mobile-first street-sweeping schedule tool that provides monthly cleaning dates, city ward, and zip code information from the various City of Chicago APIs.</p>
@@ -230,13 +212,13 @@
             </div>
         </div> -->
 
-    <!-- project "boxes" on the left
+<!-- project "boxes" on the left
         <div class=smallerprojects>
           <div class=projectleftside>
 
             <div class="card-group">
               <div class="card"> -->
-    <!-- <img src="./assets/images/codequiz.png" class="card-img-top" alt="Javascript Code Quiz">
+<!-- <img src="./assets/images/codequiz.png" class="card-img-top" alt="Javascript Code Quiz">
                 <div class="card-body">
                   <h5 class="card-title"><a href="https://sadielinks.github.io/code-quiz/" target="_blank">Test Your Javascript Knowledge</a></h5>
                   <p class="card-text">Let's see if you know your Javascript!</p>
@@ -244,7 +226,7 @@
                 </div>
               </div>
               <div class="card"> -->
-    <!-- <img src="./assets/images/weatherdash.png" class="card-img-top" alt="Javascript Code Quiz">
+<!-- <img src="./assets/images/weatherdash.png" class="card-img-top" alt="Javascript Code Quiz">
                 <div class="card-body">
                   <h5 class="card-title"><a href="https://sadielinks.github.io/weather-dashboard/" target="_blank">Your Weather Dashboard</a></h5>
                   <p class="card-text">Find and keep track of weather conditions in your choice of city or town.</p>
@@ -255,7 +237,7 @@
         </div>
     </section> -->
 
-    <!-- Contact Area
+<!-- Contact Area
     <section id="contactmedeets" class="contactmearea">
       <div id="sidebar">
         <header class="subheaders">Contact</header>
@@ -272,7 +254,7 @@
     </section>
   </main> -->
 
-    <!-- Footer
+<!-- Footer
   <footer>
     <h6>Made with ✨ in Chicago by Sadie Sial</h4>
   </footer>
@@ -281,5 +263,6 @@
 
 
 </html> -->
-  <!-- </body> -->
+<!-- </body> -->
+
 </html>
