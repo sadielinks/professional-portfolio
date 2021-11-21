@@ -17,7 +17,7 @@
 }
 
 * {
-  margin: 0;
+  margin: 5px;
   padding: 0;
   box-sizing: border-box;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -101,12 +101,13 @@ nav ul li {
 .my-face {
   height: 25.5rem;
   width: 20.5rem;
+  margin: 3rem;
 }
 
 h2 {
   text-align: center;
   border-radius: 6px;
-  box-shadow: 0px 2px 5px 2px thistle;
+  box-shadow: 0px 2px 5px 2px var(--primary-color);
 }
 
 .about-me-box {
@@ -135,7 +136,7 @@ h2 {
 .skill-header {
   margin-bottom: 1rem;
   border-radius: 6px;
-  box-shadow: 0px 2px 5px 2px thistle;
+  box-shadow: 0px 2px 5px 2px var(--primary-color);
 }
 
 .skill-box {
@@ -146,6 +147,7 @@ h2 {
 }
 
 .skills-icon img {
+  margin: 1rem;
   padding: 1.25rem;
 }
 
