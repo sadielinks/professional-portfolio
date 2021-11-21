@@ -234,6 +234,19 @@ footer {
   justify-content: center;
 }
 
+.scroll-up {
+  position: fixed;
+  right: 0.5%;
+  bottom: 1%;
+  cursor: pointer;
+}
+
+.up-arrow {
+  width: 1.5rem;
+  height: 1.5rem;
+  opacity: 0.5;
+}
+
 /* .contactmearea {
     margin: 5px;
     padding: 50px;
