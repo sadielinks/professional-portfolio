@@ -8,7 +8,7 @@
   --bg-color: rgb(238, 233, 245);
   --primary-color: #795eb0;
   --secondary-color: #19ac8589;
-  --primary-shadow: #a1a7e9;
+  --primary-shadow: #8b8eaf;
   --secondary-shadow: #9ab8a8;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
@@ -245,15 +245,20 @@ h2 {
 }
 
 #contacts a {
-    color: white;
+    color: var(--primary-color);
     justify-content: space-around;
+}
+
+#contacts a:hover {
+  color: var(--secondary-color);
 }
 
 footer {
   padding: 1.25rem;
   margin: 8rem 0 0 0;
-  background-color: var(--primary-color);
-  color: #fff;
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+  box-shadow: 0 3px 10px #8b8eaf;
 }
 
 
