@@ -25,7 +25,7 @@ Web Display
 ```
 Mobile Display
 ```
-![screenshot](./assets/images/mobilescreenshot.png)
+![screenshot](./assets/images/mobile-v3.png)
 
 ## Links
 
@@ -50,7 +50,7 @@ My name is Sadie Sial and I am taking this Full-Stack Coding Bootcamp through my
 ```
 v-2.0 Desktop Display
 ```
-![screenshot](./assets/images/screenshot.png)
+![screenshot](./assets/images/desktop-v2.png)
 
 ```
 v-1.0 Desktop Display
@@ -61,7 +61,7 @@ v-1.0 Desktop Display
 ```
 v-2.0 Mobile Display
 ```
-![screenshot](./assets/images/mobilescreenshot.png)
+![screenshot](./assets/images/mobile-v2.png)
 
 
 
