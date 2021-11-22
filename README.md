@@ -19,7 +19,8 @@ This application allows for a "visually appealing" portfolio to launch, and then
 ```
 Web Display
 ```
-![screenshot](./assets/images/screenshot.png)
+![screenshot](./assets/images/desktop-v3.png)
+
 
 ```
 Mobile Display
@@ -43,6 +44,26 @@ Mobile Display
 - [Email](mailto:sadiecodes@gmail.com)
 
 My name is Sadie Sial and I am taking this Full-Stack Coding Bootcamp through my current employer.
+
+## Previous Versions
+
+```
+v-2.0 Desktop Display
+```
+![screenshot](./assets/images/screenshot.png)
+
+```
+v-1.0 Desktop Display
+```
+![screenshot](./assets/images/desktop-v1.png)
+
+
+```
+v-2.0 Mobile Display
+```
+![screenshot](./assets/images/mobilescreenshot.png)
+
+
 
 
 ## License
