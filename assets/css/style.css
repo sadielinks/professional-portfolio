@@ -53,6 +53,7 @@ nav {
   left: 0;
   z-index: 1;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
@@ -122,6 +123,8 @@ h2 {
 .about-me-text {
   padding: 15px 0;
   margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
   line-height: var(--line-height);
   /* padding: 0.3rem 0; */
 }
@@ -133,6 +136,7 @@ h2 {
   margin: auto;
   text-align: center;
   margin-top: 2.5rem;
+  flex-wrap: wrap;
 }
 
 .skill-header {
@@ -151,6 +155,7 @@ h2 {
 .skills-icon img {
   margin: 1rem;
   padding: 1.25rem;
+  flex-wrap: wrap-reverse;
 }
 
 /* work section */
@@ -222,6 +227,7 @@ h2 {
 }
 
 .tagline {
+
   padding: 2rem 0;
   display: flex;
   flex-wrap: wrap;
@@ -253,8 +259,44 @@ footer {
 
 /* responsiveness */
 
-/* >720px */
 @media screen and (max-width: 720px) {
+  nav {
+    padding: 1.5rem 1rem;
+  }
+  nav ul {
+    position: fixed;
+    background-color: var(--bg-color);
+    flex-direction: column;
+    top: 86px;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    transform: translateX(120%);
+    transition: transform 0.5s ease-in;
+  }
+
+  nav ul li {
+    margin: 8px;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  nav ul.show {
+    transform: translateX(0);
+  }
+
+  .hero {
+    margin-top: -4rem;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .hero img {
+    height: 37.5rem;
+    width: 30rem;
+  }
 }
 
 
