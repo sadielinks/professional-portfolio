@@ -218,13 +218,6 @@ h2 {
   margin: 10px;
 }
 
-
-
-
-
-
-
-
 /* contact + footer */
 
 .footer-container {
@@ -243,10 +236,13 @@ h2 {
 }
 
 .tagline {
-
-  padding: 2rem 0;
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  width: 75%;
+  padding: 10px;
 }
 
 footer {
