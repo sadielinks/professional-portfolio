@@ -175,8 +175,9 @@ h2 {
 }
 
 .project-pic {
-  width: 65%;
-  height: 60%;
+  width: 10rem;
+  height: 5rem;
+
 }
 
 .projects-container {
@@ -243,6 +244,7 @@ h2 {
   margin: auto;
   width: 75%;
   padding: 10px;
+  font-size: 15px;
 }
 
 footer {
