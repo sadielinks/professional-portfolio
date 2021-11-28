@@ -117,7 +117,7 @@ nav ul li {
 .about-me-header {
   text-align: center;
   border-radius: 6px;
-  box-shadow: 0px 2px 5px 2px var(--primary-color);
+  box-shadow: 0px 2px 5px 2px var(--primary-shadow);
 }
 
 .about-me-box {
@@ -151,7 +151,7 @@ nav ul li {
 .skill-header {
   text-align: center;
   border-radius: 6px;
-  box-shadow: 0px 2px 5px 2px var(--primary-color);
+  box-shadow: 0px 2px 5px 2px var(--primary-shadow);
 }
 
 .skill-box {
@@ -193,7 +193,7 @@ nav ul li {
 .recent-work-title {
   text-align: center;
   border-radius: 6px;
-  box-shadow: 0 2px 5px 2px var(--primary-color);
+  box-shadow: 0 2px 5px 2px var(--primary-shadow);
 }
 
 .project-container {
