@@ -10,9 +10,9 @@ ___
 * [Description](#description)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
+* [Previous](#previous)
 * [Links](#links)
 * [Contact](#contact)
-* [Previous](#previous)
 * [License](#license)
 
 ## Description
@@ -41,26 +41,12 @@ Mobile Display
 ![screenshot](./assets/images/mobile-v3.png)
 
 
-## Technologies Used
+## Technologies
 - HTML
 - CSS
 - Javascript <br>
 
-## Links
-
-- [Deployed App](https://sadielinks.github.io/professional-portfolio/)
-
-- [GitHub Repository](https://github.com/sadielinks/professional-portfolio) <br>
-
-
-## Contact Information
-
-- [GitHub Profile](https://github.com/sadielinks)
-- [Email](mailto:sadiecodes@gmail.com)
-
-My name is Sadie Sial and I am taking this Full-Stack Coding Bootcamp through my current employer. <br>
-
-## Previous Versions
+## Previous
 
 ```
 v-2.0 Desktop Display
@@ -77,6 +63,20 @@ v-1.0 Desktop Display
 v-2.0 Mobile Display
 ```
 ![screenshot](./assets/images/mobile-v2.png)
+
+## Links
+
+- [Deployed App](https://sadielinks.github.io/professional-portfolio/)
+
+- [GitHub Repository](https://github.com/sadielinks/professional-portfolio) <br>
+
+
+## Contact
+
+- [GitHub Profile](https://github.com/sadielinks)
+- [Email](mailto:sadiecodes@gmail.com)
+
+My name is Sadie Sial and I am taking this Full-Stack Coding Bootcamp through my current employer. <br>
 
 
 ## License
