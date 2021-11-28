@@ -48,7 +48,6 @@ a:hover {
 
 nav {
   /* sticky navbar property */
-  position: sticky;
   top: 0;
   left: 0;
   z-index: 1;
