@@ -8,3 +8,12 @@ scrollUp.addEventListener("click", () => {
     behavior: "smooth",
   });
 });
+
+// mobile responsiveness menu
+const menu = document.querySelector("#burger-menu");
+const ul = document.querySelector("nav ul");
+const nav = document.querySelector("nav");
+
+menu.addEventListener("click", () => {
+  ul.classList.toggle("show");
+});
