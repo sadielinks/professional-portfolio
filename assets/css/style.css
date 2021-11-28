@@ -297,49 +297,42 @@ footer {
     transition: transform 0.5s ease-in;
   }
 
+  nav ul.show {
+    transform: translateX(0);
+  }
+
   nav ul li {
     margin: 8px;
   }
 
   .burger-menu {
-    display: none;  
+    display: block;  
   }
 
-  nav ul.show {
-    transform: translateX(0);
-  }
-
-  .hero {
+  .self-img-about {
     margin-top: -4rem;
     flex-direction: column;
     gap: 0;
   }
 
-  .hero img {
-    height: 37.5rem;
-    width: 30rem;
+  .my-face {
+    height: 18.5rem;
+    width: 16.5rem;
+    padding: 2rem;
   }
-  .bio {
+
+  .about-me-box {
     margin-top: -7rem;
     width: 20.5rem;
+    padding: 3rem;
   }
 
-  .more-about {
-    margin-top: 2rem;
-    padding: 1rem 3.5rem;
-  }
+  .skills-icon {
+    /* width: 5.875rem; */
+    /* height: 5.25rem; */
+    flex-wrap: wrap;
+    flex-direction: column;
 
-  .more-about h2 {
-    text-align: center;
-  }
-
-  .more-about p {
-    text-align: justify;
-  }
-
-  .icon {
-    width: 5.875rem;
-    height: 5.25rem;
   }
 
   .projects-container {
@@ -356,12 +349,12 @@ footer {
 }
 
 @media screen and (max-width: 420px) {
-  .hero img {
+  .self-img-about {
     height: 37.5rem;
     width: 23rem;
   }
 
-  .bio {
+  .my-face {
     width: 18.3rem;
   }
 
