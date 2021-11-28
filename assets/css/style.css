@@ -182,7 +182,6 @@ nav ul li {
 .project-pic {
   width: 10rem;
   height: 5rem;
-
 }
 
 .projects-container {
@@ -224,7 +223,6 @@ nav ul li {
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
-  
 }
 
 /* contact + footer */
@@ -306,7 +304,7 @@ footer {
   }
 
   .burger-menu {
-    display: block;  
+    display: block;
   }
 
   .self-img-about {
@@ -332,7 +330,6 @@ footer {
     /* height: 5.25rem; */
     flex-wrap: wrap;
     flex-direction: column;
-
   }
 
   .projects-container {
@@ -365,278 +362,4 @@ footer {
   .footer-container {
     max-width: 17.75rem;
   }
-
 }
-
-
-/* .contactmearea {
-    margin: 5px;
-    padding: 50px;
-    font-size: 16px;
-    display: flex;
-    flex-direction: start;
-    text-align: justify;
-    align-items: stretch;  
-} */
-
-/* #contacts { */
-    /* margin: 10px; */
-    /* width: 1000px; */
-    /* margin: auto; */
-/* } */
-
-/* #contacts li {
-    padding: 5px;
-    float: left;
-    list-style-type: none;
-    text-decoration: none;
-    max-width: 100%;
-    max-height: 100%;
-} */
-
-/* #contacts a {
-    color: var(--primary-color);
-    justify-content: space-around;
-} */
-
-/* #contacts a:hover {
-  color: var(--secondary-color);
-} */
-
-
-
-/* header {
-    width: 100%;
-    height: auto;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
-    text-align: left;
-    flex-wrap: wrap;
-}  */
-
-/* header nav {
-    justify-content: space-around;
-    background-color: thistle;
-    padding: 30px 0px 0px 0px;
-    display: flex;
-    flex-wrap: wrap;
-} */
-
-/* header h1 {
-    color: whi;
-} */
-
-/* nav ul {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
-    color: whitesmoke;
-    display: flex;
-    justify-content: flex-end;
-    list-style-type: none;
-}
-
-li a {
-    margin: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-/* color:  purple;
-    text-decoration: none;
-} */
-
-/* 
-/* Banner + Photo */
-/* article {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-    background: url("../images/malibu-2.JPG") no-repeat center;
-    width: auto;
-    height: 400px;
-    bottom: 10px;
-    background-size: cover;
-} */
-
-/* Will contain about me, work, and contact info */
-/* main {
-    margin: auto;
-    padding: auto;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-} */
-
-/* .aboutmearea {
-    margin: 5px;
-    padding: 50px;
-    font-size: 28px;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-} */
-
-/* To create "subtitles" to the left of each section */
-/* #sidebar {
-    border-right: solid thistle 5px;
-    border-bottom: solid purple 5px;
-    font-size: 30px;
-    margin: 20px;
-    padding: 20px;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: right;
-} */
-
-/* .subheaders {
-    font-size: 40px;
-    font-weight: 800;
-    align-content: right;
-} */
-
-/* .workarea {
-    margin: 5px;
-    padding: 50px;
-    font-size: 20px;
-    display: flex;
-    flex-direction: start;
-    align-items: stretch;
-} */
-
-/* /* For uniformity in project images */
-/* img {
-    max-width: 100%;
-    max-height: 100%;
-}
-.mainprojectsection {
-    align-content: center;
-    width: 100%;
-} */
-
-/* .project1 {
-    margin: 5px;
-    display: flex;
-    flex-direction:column;
-    text-align: center;
-    border-radius: auto;
-    width: 100%;
-    /* border: rgb(222, 217, 225) 4px solid; */
-/* } */
-
-/* .smallerprojects {
-    display: flex;
-    flex-direction:row;
-    /* align-items: center; */
-/*
-
-.title {
-    width: 380px;
-}
-
-.projectleftside {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-}
-
-.projectrightside {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-}
-
-.project2, .project3, .project4, .project5 {
-    /* border: rgb(222, 217, 225) 4px solid; */
-/* width: 100%;
-    height: 100;
-    max-width: 100%;
-    border-radius: auto;
-} */
-
-/* .contactmearea {
-    margin: 5px;
-    padding: 50px;
-    font-size: 30px;
-    display: flex;
-    flex-direction: start;
-    text-align: justify;
-    align-items: stretch;  
-} */
-
-/* #contacts {
-    margin: 10px;
-    width: 1000px;
-    margin: auto;
-} */
-
-/* #contacts li {
-    padding: 5px;
-    color: slateblue;
-    float: left;
-    list-style-type: none;
-    text-decoration: none;
-    max-width: 100%;
-    max-height: 100%;
-} */
-
-/* #contacts a {
-    color: slateblue;
-    justify-content: space-around;
-} */
-
-/* footer {
-    padding: 30px;
-    margin: 30px;
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-} */
-
-/* In order for the website to have a responsive layout */
-/* @media screen and (min-width: 768px) {
-    header,
-    nav 
-    main,
-    p { 
-  display: flex; 
- flex-direction: column;
-        font-size: auto;
-    }
-  }  */
-
-/* .header {
-    background-color: #46B4CE !important;
-    background:  url(images/loot-whiteArtboard%201@0.75x.png) no-repeat center center;
-    background-size: 30%;
-    position: relative;
-    margin-top: 25px;
-    height: 20em;
-}  */
-
-/*extra small devices*/
-/* @media (min-width: 300px) {
-  .header {
-    background-size: 55%;
-    height: 15em;
-  }
-}  */
-/* Small devices (tablets, 768px and up) */
-/* @media (min-width: 768px) {
-    .header {
-        background-size: 40%;
-    }
-} */
-/* Medium devices (desktops, 992px and up) */
- /* @media (min-width: 992px) {
-    .header {
-        background-size: 30%;
-    }
-}  */
-
-/* .btn{
-    margin-left:10px;
-    margin-top:8px;
-} */
