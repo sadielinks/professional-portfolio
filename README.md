@@ -1,9 +1,26 @@
-# Professional Portfolio CURRENTLY UNDER RE-CONSTRUCTION!!! (Bootcamp Assignment) 
----
+# Professional Portfolio (Bootcamp Assignment) 
+
 By: Sadie Sial
 ___
 
-## User Story
+![mit](https://img.shields.io/badge/license-MIT-lightblue)
+
+#### Table of Contents
+
+* [Description](#description)
+* [Screenshots](#screenshots)
+* [Technologies](#technologies)
+* [Links](#links)
+* [Contact](#contact)
+* [Previous](#previous)
+* [License](#license)
+
+## Description
+
+This application allows for a "visually appealing" portfolio to launch, and then guide the viewer through the potential employee's previous work samples and contact information.
+
+
+### User Story
 
 ```
 AS AN employer
@@ -11,13 +28,9 @@ YOU WILL view a potential employee's deployed portfolio of work samples
 SO THAT you can review samples of their work and assess whether they're a good candidate for an open position
 ```
 
+## Screenshots
 ```
-This application allows for a "visually appealing" portfolio to launch, and then guide the viewer through the potential employee's previous work samples and contact information.
-```
-
-## Screenshot of Portfolio
-```
-Web Display
+Desktop Display
 ```
 ![screenshot](./assets/images/desktop-v3.png)
 
@@ -27,15 +40,17 @@ Mobile Display
 ```
 ![screenshot](./assets/images/mobile-v3.png)
 
+
+## Technologies Used
+- HTML
+- CSS
+- Javascript <br>
+
 ## Links
 
 - [Deployed App](https://sadielinks.github.io/professional-portfolio/)
 
-- [GitHub Repository](https://github.com/sadielinks/professional-portfolio)
-
-
-## Technologies Used
-- HTML + CSS
+- [GitHub Repository](https://github.com/sadielinks/professional-portfolio) <br>
 
 
 ## Contact Information
@@ -43,7 +58,7 @@ Mobile Display
 - [GitHub Profile](https://github.com/sadielinks)
 - [Email](mailto:sadiecodes@gmail.com)
 
-My name is Sadie Sial and I am taking this Full-Stack Coding Bootcamp through my current employer.
+My name is Sadie Sial and I am taking this Full-Stack Coding Bootcamp through my current employer. <br>
 
 ## Previous Versions
 
@@ -62,8 +77,6 @@ v-1.0 Desktop Display
 v-2.0 Mobile Display
 ```
 ![screenshot](./assets/images/mobile-v2.png)
-
-
 
 
 ## License
