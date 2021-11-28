@@ -116,6 +116,7 @@ nav ul li {
 
 .about-me-header {
   text-align: center;
+  color: var(--primary-color);
   border-radius: 6px;
   box-shadow: 0px 2px 5px 2px var(--primary-shadow);
 }
@@ -134,6 +135,7 @@ nav ul li {
   margin-top: 2rem;
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
   line-height: var(--line-height);
   /* padding: 0.3rem 0; */
 }
@@ -150,6 +152,7 @@ nav ul li {
 
 .skill-header {
   text-align: center;
+  color: var(--primary-color);
   border-radius: 6px;
   box-shadow: 0px 2px 5px 2px var(--primary-shadow);
 }
@@ -192,6 +195,7 @@ nav ul li {
 
 .recent-work-title {
   text-align: center;
+  color: var(--primary-color);
   border-radius: 6px;
   box-shadow: 0 2px 5px 2px var(--primary-shadow);
 }
